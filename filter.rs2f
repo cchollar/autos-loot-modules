@@ -1,4 +1,4 @@
-meta { name = "Joe's Filter for Persnickety Players (updated: 4/13/2025)"; description = "undefined"; }
+meta { name = "Auto's Dumb Filter"; description = "undefined"; }
 
 /*@ define:module:global_defaults
 ---

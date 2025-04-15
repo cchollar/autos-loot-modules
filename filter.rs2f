@@ -1,0 +1,4 @@
+meta {
+    name = "Auto's Dumb Filter"
+    description = "A selection of filter modules inspired by Joe and Ritken"
+}

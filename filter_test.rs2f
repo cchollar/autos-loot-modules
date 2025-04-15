@@ -1122,8 +1122,6 @@ group: Currency Filters
 #define VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY 0
 
 
-/* Currency Styles HERE */
-
 /*@ define:input:currency
 type: style
 label: Abyssal pearls custom style

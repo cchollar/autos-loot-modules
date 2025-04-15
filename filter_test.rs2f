@@ -1,6 +1,6 @@
 meta = { 
-    name = "Auto's Dumb Shit"
-    description = "I ripped this from Joe's filter script so that I could make adjustments please use his"
+    name = "Auto's Dumb Shit";
+    description = "I ripped this from Joe's filter script so that I could make adjustments please use his";
 }
 
 /*@ define:module:global_defaults
@@ -160,7 +160,9 @@ apply (name:VAR_GLOBAL_SHOW) {
 }
 
 
-
+meta = { 
+    name = "Auto's Dumb Shit";
+}
 
 
 /*@ define:module:item_tiers

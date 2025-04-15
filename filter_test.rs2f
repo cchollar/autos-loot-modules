@@ -444,7 +444,9 @@ apply (name:VAR_VALUES_TIER_4_SHOW && VAR_VALUES_TIER_4_SOUND) {
 }
 
 
-
+meta = { 
+    name = "Auto's Dumb Shit";
+}
 
 
 /*@ define:module:uniques
@@ -806,7 +808,9 @@ apply (name:VAR_UNIQUES_LIST && VAR_UNIQUES_SOUND) {
     sound = VAR_UNIQUES_SOUND_ID;
 }
 
-
+meta = { 
+    name = "Auto's Dumb Shit";
+}
 
 /*@ define:module:currency
 ---

@@ -1014,7 +1014,7 @@ apply (name:VAR_UNIQUES_LIST && VAR_UNIQUES_SOUND) {
 /*@ define:module:currency
 ---
 name: Currency
-subtitle: Money makes the world go 'round
+subtitle: Who tf is dropping archery tickets
 description: |
   This module provides styling and quantity filters for all currencies in the game.
 */
@@ -1328,6 +1328,13 @@ group: Custom currency styles
 exampleItem: Abyssal pearls
 */
 #define VAR_ABYSSAL_PEARLS_CUSTOMSTYLE 
+
+/*@ define:input:currency
+type: boolean
+label: Abyssal pearls show icon
+group: Custom currency styles
+*/
+#define VAR_ABYSSAL_PEARLS_SHOW_ICON false
 
 /*@ define:input:currency
 type: style

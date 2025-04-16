@@ -439,8 +439,6 @@ exampleItem: Abyssal whip
 */
 #define VAR_VALUES_TIER_3_CUSTOMSTYLE \
   textColor = "#FFFF9600";\
-  backgroundColor = "#50FFFFFF";\
-  borderColor = "#FFFF9600";\
   textAccentColor = "#FF000000";\
   menuTextColor = "#FFFF9600";\
   showLootbeam = true;
@@ -449,7 +447,7 @@ exampleItem: Abyssal whip
 type: style
 label: Tier 4 custom style
 group: Tier 4
-exampleItem: Twisted bow
+exampleItem: Torva platebody
 */
 #define VAR_VALUES_TIER_4_CUSTOMSTYLE \
   textColor = "#FFFF66B2";\

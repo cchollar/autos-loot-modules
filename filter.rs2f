@@ -662,7 +662,7 @@ description: |
 
 /*@ define:input:uniques
 type: stringlist
-label: List of uniques to apply custom unique style to (by default just lootbeam)
+label: List of uniques to apply custom unique style to (by default just lootbeam and bold)
 */
 #define VAR_UNIQUES_LIST [ \
   "Jar of dirt", \

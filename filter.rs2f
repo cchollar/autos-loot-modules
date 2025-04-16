@@ -1320,6 +1320,84 @@ group: Currency Filters
 */
 #define VAR_WARRIOR_GUILD_TOKEN_MIN_QUANTITY 0
 
+/*@ define:input:currency
+type: enumlist
+label: Currenies to show icons for
+group: Currency Icons
+enum:
+    - value: "Abyssal pearls"
+      label: "Abyssal pearls"
+    - value: "Agility arena ticket"
+      label: "Agility arena ticket"
+    - value: "Anima-infused bark"
+      label: "Anima-infused bark"
+    - value: "Archery ticket"
+      label: "Archery ticket"
+    - value: "Barronite shards"
+      label: "Barronite shards"
+    - value: "Blood money"
+      label: "Blood money"
+    - value: "Brimhaven voucher"
+      label: "Brimhaven voucher"
+    - value: "Castle wars ticket"
+      label: "Castle wars ticket"
+    - value: "Coins"
+      label: "Coins"
+    - value: "Ecto-token"
+      label: "Ecto-token"
+    - value: "Frog token"
+      label: "Frog token"
+    - value: "Glistening tear"
+      label: "Glistening tear"
+    - value: "Golden nugget"
+      label: "Golden nugget"
+    - value: "Hallowed mark"
+      label: "Hallowed mark"
+    - value: "Intelligence"
+      label: "Intelligence"
+    - value: "Mark of grace"
+      label: "Mark of grace"
+    - value: "Mermaid's tear"
+      label: "Mermaid's tear"
+    - value: "Minnow"
+      label: "Minnow"
+    - value: "Molch pearl"
+      label: "Molch pearl"
+    - value: "Mole claw"
+      label: "Mole claw"
+    - value: "Mole skin"
+      label: "Mole skin"
+    - value: "Nuggets"
+      label: "Nuggets"
+    - value: "Numulite"
+      label: "Numulite"
+    - value: "Paramaya ticket"
+      label: "Paramaya ticket"
+    - value: "Platinum token"
+      label: "Platinum token"
+    - value: "Rare creature parts"
+      label: "Rare creature parts"
+    - value: "Reward token credits"
+      label: "Reward token credits"
+    - value: "Shantay pass"
+      label: "Shantay pass"
+    - value: "Ship ticket"
+      label: "Ship ticket"
+    - value: "Stardust"
+      label: "Stardust"
+    - value: "Termites"
+      label: "Termites"
+    - value: "Tokkul"
+      label: "Tokkul"
+    - value: "Trading sticks"
+      label: "Trading sticks"
+    - value: "Unidentified minerals"
+      label: "Unidentified minerals"
+    - value: "Warrior guild token"
+      label: "Warrior guild token"
+
+*/
+#define VAR_CURRENCY_SHOW_ICONS_LIST []
 
 /*@ define:input:currency
 type: style
@@ -1615,6 +1693,10 @@ apply (name:CONST_CURRENCY_LIST) {
 }
 apply (name:VAR_CURRENCY_HIDE) {
     hidden = true;
+}
+
+apply (name:VAR_CURRENCY_SHOW_ICONS_LIST){
+    icon = CurrentIcon();
 }
 
 

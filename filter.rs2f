@@ -2,7 +2,7 @@ meta { name = "Auto's Dumb Shit"; description = "This is me balatantly ripping J
 
 /*@ define:module:global_defaults
 ---
-name: Global defaults
+name: Globals
 subtitle: The first layer of styling and filtering
 description: |
   This provides some default styling options to apply to all items, unless overridden by a module below. This also provides an option to explicitly show and hide specific items. This list however can be overridden in a below modules as well.
@@ -60,7 +60,7 @@ label: Hide items owned by other players
 /*@ define:input:global_defaults
 type: style
 label: Global default style
-exampleItem: Santa hat
+exampleItem: Blue Partyhat
 */
 #define VAR_GLOBAL_CUSTOMSTYLE 
 
